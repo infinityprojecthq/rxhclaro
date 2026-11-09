@@ -1,0 +1,10 @@
+<!doctype html><html lang="es-PE"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Calculadora RxH Claro (insertable)</title><link rel="stylesheet" href="../assets/styles.css"></head>
+<body class="wrap"><strong>Calculadora de recibo por honorarios 2026</strong><form id="rxh-form" class="calc">
+<label>Monto (S/) <input name="monto" inputmode="decimal" value="2000"></label>
+<label><input type="radio" name="dir" value="bn" checked> Tengo el bruto (monto del recibo)</label>
+<label><input type="radio" name="dir" value="nb"> Tengo el neto (lo que quiero recibir)</label>
+<fieldset><legend>¿Quien te paga es agente de retención?</legend>
+<label><input type="radio" name="agente" value="si"> Sí</label> <label><input type="radio" name="agente" value="no"> No</label> <label><input type="radio" name="agente" value="nose" checked> No lo sé</label>
+<p class="small">Confirma con quien te paga si es agente de retención.</p></fieldset>
+<label><input type="checkbox" name="susp"> Tengo constancia vigente para este pago y quien me paga la tiene (retenciones: desde el día calendario siguiente a su emisión)</label>
+<button type="submit">Calcular</button></form><div id="rxh-out" aria-live="polite"></div><p class="small">Por <a href="https://infinityprojecthq.github.io/rxhclaro/" target="_blank" rel="noopener">RxH Claro</a>. RxH Claro es una herramienta informativa del Infinity Project. No es asesoría tributaria ni está afiliada a SUNAT. Verifica tu caso en sunat.gob.pe.</p><script src="../assets/rxh-core.js"></script><script src="../assets/rxh-ui.js"></script></body></html>

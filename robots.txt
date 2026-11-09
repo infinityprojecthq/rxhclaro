@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://infinityprojecthq.github.io/rxhclaro/sitemap.xml
